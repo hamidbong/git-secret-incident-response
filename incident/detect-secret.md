@@ -63,6 +63,7 @@ GitGuardian immediately triggers an alert.
 - Recommended remediation steps
 
 Gitleaks blocks secrets before they reach production,
+
 GitGuardian monitors and manages incidents at scale.
 
 This allows fast incident response and auditing.
