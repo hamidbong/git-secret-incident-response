@@ -53,5 +53,15 @@ Author:      brahim bong
 Email:       brahbong@gmail.com
 Date:        2026-01-03T15:02:20Z
 ```
+## Detection with GitGuardian
 
+If the secret is pushed to the remote repository,
+GitGuardian immediately triggers an alert.
 
+### Information provided:
+- Secret type (API key, token, password)
+- Affected repository and commit
+- Secret validity status
+- Recommended remediation steps
+
+This allows fast incident response and auditing.

@@ -24,3 +24,12 @@ See `/incident` for step-by-step remediation.
 ## 🔗 Portfolio
 This project is part of my DevSecOps portfolio.
 # git-secret-incident-response
+
+## 🧠 Key DevSecOps Takeaway
+
+Security cannot rely on a single control.
+
+- Gitleaks prevents secrets from entering the repository
+- GitGuardian detects and manages incidents at scale
+
+Defense in depth is mandatory.

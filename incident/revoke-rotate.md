@@ -21,3 +21,12 @@ Once a secret is exposed, it must be considered compromised.
 - Password → Change immediately
 
 ❌ Removing the secret from Git is NOT enough.
+
+## GitGuardian Incident Closure
+
+After revoking and rotating the secret:
+- Mark the incident as resolved in GitGuardian
+- Provide remediation details
+- Confirm the secret is no longer valid
+
+This ensures proper audit tracking.
