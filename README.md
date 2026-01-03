@@ -25,6 +25,7 @@ Security cannot rely on a single control.
 - Gitleaks prevents secrets from entering the repository
 - GitGuardian detects and manages incidents at scale
 
+
 ## ❌ Common Bad Practices (What NOT to Do)
 
 The following practices frequently lead to security incidents
