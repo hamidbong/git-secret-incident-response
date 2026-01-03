@@ -52,3 +52,5 @@ Email:       brahbong@gmail.com
 Date:        2026-01-03T15:02:20Z
 ```
 
+Gitleaks blocks secrets before they reach production,
+GitGuardian monitors and manages incidents at scale.
