@@ -1,11 +1,3 @@
-
----
-
-## 🔑 Étape 4 – Révocation & rotation
-
-📄 `incident/revoke-rotate.md`
-
-```md
 # 🔑 Revoke and Rotate the Secret
 
 Once a secret is exposed, it must be considered compromised.
