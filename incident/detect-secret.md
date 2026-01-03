@@ -3,8 +3,10 @@
 Secrets may be detected by:
 - GitGuardian alerts
 - CI/CD secret scanning
-- Manual audit
+- Manual audit: Gitleaks
 
+Gitleaks blocks secrets before they reach production,
+GitGuardian monitors and manages incidents at scale.
 ## Example with Gitleaks
 
 ### Step 1: Create a Test File with Secrets
@@ -52,5 +54,4 @@ Email:       brahbong@gmail.com
 Date:        2026-01-03T15:02:20Z
 ```
 
-Gitleaks blocks secrets before they reach production,
-GitGuardian monitors and manages incidents at scale.
+
