@@ -5,8 +5,6 @@ Secrets may be detected by:
 - CI/CD secret scanning
 - Manual audit: Gitleaks
 
-Gitleaks blocks secrets before they reach production,
-GitGuardian monitors and manages incidents at scale.
 ## Example with Gitleaks
 
 ### Step 1: Create a Test File with Secrets
@@ -63,5 +61,8 @@ GitGuardian immediately triggers an alert.
 - Affected repository and commit
 - Secret validity status
 - Recommended remediation steps
+
+Gitleaks blocks secrets before they reach production,
+GitGuardian monitors and manages incidents at scale.
 
 This allows fast incident response and auditing.
