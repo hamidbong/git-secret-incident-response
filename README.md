@@ -25,6 +25,20 @@ Security cannot rely on a single control.
 - Gitleaks prevents secrets from entering the repository
 - GitGuardian detects and manages incidents at scale
 
+## ❌ Common Bad Practices (What NOT to Do)
+
+The following practices frequently lead to security incidents
+and secret leaks in Git repositories:
+
+- Committing `.env` or configuration files containing secrets
+- Hardcoding API keys, tokens, or credentials in source code
+- Sharing sensitive information directly in commits
+- Ignoring security alerts and secret scanning warnings
+
+⚠️ Each of these practices significantly increases the risk
+of infrastructure compromise and data breaches.
+
+
 ## 🔄 DevSecOps Secret Detection & Incident Response Flow
 
 [![DevSecOps Flow](images/devsecops-secret-flow.png)](images/devsecops-secret-flow.png)
