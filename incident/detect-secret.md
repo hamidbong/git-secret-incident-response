@@ -59,17 +59,23 @@ Date:        2026-01-03T15:02:20Z
 ```
 ## Detection with GitGuardian
 
-If the secret is pushed to the remote repository,
+If a secret is pushed to the remote repository,
 GitGuardian immediately triggers an alert.
 
-### Information provided:
+### Information provided by GitGuardian:
 - Secret type (API key, token, password)
 - Affected repository and commit
 - Secret validity status
 - Recommended remediation steps
 
-Gitleaks blocks secrets before they reach production,
+This enables rapid identification and response to security incidents.
 
-GitGuardian monitors and manages incidents at scale.
+👉 See `tools/gitguardian.md` for step-by-step incident handling and remediation.
 
-This allows fast incident response and auditing.
+### DevSecOps Perspective
+
+- Gitleaks blocks secrets **before** they reach the remote repository
+- GitGuardian detects and manages incidents **after** secrets are pushed
+
+This defense-in-depth approach ensures fast incident response,
+traceability, and continuous monitoring.
