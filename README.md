@@ -28,8 +28,6 @@ Security cannot rely on a single control.
 ## 🔄 DevSecOps Secret Detection & Incident Response Flow
 
 [![DevSecOps Flow](images/devsecops-secret-flow.png)](images/devsecops-secret-flow.png)
-[<img src="images/devsecops-secret-flow.png" width="80%">](images/devsecops-secret-flow.png)
-
 
 This diagram illustrates a defense-in-depth approach.
 
