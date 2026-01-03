@@ -18,7 +18,14 @@ git add test-secrets.env
 git commit -m "Added configuration file"
 ```
 
-### Step 2: Detect Secrets
+### Step 2: Detect Secrets with gitleaks
+
+Install gitleaks tools for detecting:
+
+```bash
+sudo apt install gitleaks
+```
+
 Run gitleaks to scan for secrets:
 
 ```bash
