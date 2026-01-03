@@ -1,18 +1,11 @@
-
-
-
-## 🛡️ Étape 6 – Prévention (DevSecOps)
-
-📄 `incident/prevent-recurrence.md`
-
-# 🛡️ Preventing Future Secret Leaks
+# 🛡️ Preventing Future Secret Leaks (DevSecOps)
 
 ## Best Practices
 - Never store secrets in source code
 - Use environment variables
-- Apply .gitignore rules
+- Apply `.gitignore` rules
 - Enforce Pull Requests
-- Limit repository access
+- Limit repository access (least privilege)
 
 ## Pre-commit Secret Scanning
 ```bash

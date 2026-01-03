@@ -10,8 +10,8 @@ This repository demonstrates a real-world DevSecOps incident:
 - Implement preventive security controls
 
 ## 🛠 Tools
-- GitGuardian
-- Gitleaks
+- GitGuardian (continuous monitoring & incident management)
+- Gitleaks (local or CI/CD secret scanning)
 - Git
 - Pre-commit hooks
 
@@ -25,10 +25,7 @@ Security cannot rely on a single control.
 - Gitleaks prevents secrets from entering the repository
 - GitGuardian detects and manages incidents at scale
 
-Defense in depth is mandatory.
+**Defense in depth is mandatory.**
 
 ## 🔗 Portfolio
 This project is part of my DevSecOps portfolio.
-# git-secret-incident-response
-
-

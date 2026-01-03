@@ -1,3 +1,8 @@
+> ⚠️ Disclaimer  
+> The secrets used in this tutorial are **fake and generated for educational purposes only**.
+> Do NOT use real credentials.
+
+
 # 🔍 Detecting a Leaked Secret
 
 Secrets may be detected by:
@@ -12,8 +17,9 @@ Create a test file to simulate leaked secrets:
 
 ```bash
 # Create a test file with a fake AWS key
-echo 'AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE' > test-secrets.env
-echo 'AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY' >> test-secrets.env
+
+echo 'AWS_ACCESS_KEY_ID=AKIAFAKE123456789' > test-secrets.env
+echo 'AWS_SECRET_ACCESS_KEY=FAKE_SECRET_KEY_FOR_TUTORIAL_ONLY' >> test-secrets.env
 git add test-secrets.env
 git commit -m "Added configuration file"
 ```
