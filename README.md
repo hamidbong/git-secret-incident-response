@@ -18,13 +18,6 @@ This repository demonstrates a real-world DevSecOps incident:
 ## 📚 Repository Structure
 See `/incident` for step-by-step remediation.
 
-## 🚨 Key DevSecOps Message
-> A leaked secret is a security incident — not a simple mistake.
-
-## 🔗 Portfolio
-This project is part of my DevSecOps portfolio.
-# git-secret-incident-response
-
 ## 🧠 Key DevSecOps Takeaway
 
 Security cannot rely on a single control.
@@ -33,3 +26,9 @@ Security cannot rely on a single control.
 - GitGuardian detects and manages incidents at scale
 
 Defense in depth is mandatory.
+
+## 🔗 Portfolio
+This project is part of my DevSecOps portfolio.
+# git-secret-incident-response
+
+
