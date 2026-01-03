@@ -25,6 +25,14 @@ Security cannot rely on a single control.
 - Gitleaks prevents secrets from entering the repository
 - GitGuardian detects and manages incidents at scale
 
+## 🔄 DevSecOps Secret Detection & Incident Response Flow
+
+![DevSecOps Secret Detection Flow](images/devsecops-secret-flow.png)
+[![DevSecOps Flow](images/devsecops-secret-flow.png)](images/devsecops-secret-flow.png)
+
+
+This diagram illustrates a defense-in-depth approach.
+
 **Defense in depth is mandatory.**
 
 ## 🔗 Portfolio
