@@ -1,11 +1,10 @@
 
----
+
 
 ## 🛡️ Étape 6 – Prévention (DevSecOps)
 
 📄 `incident/prevent-recurrence.md`
 
-```md
 # 🛡️ Preventing Future Secret Leaks
 
 ## Best Practices
