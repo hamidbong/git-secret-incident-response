@@ -43,7 +43,6 @@ of infrastructure compromise and data breaches.
 ## 🔄 DevSecOps Secret Detection & Incident Response Flow
 
 [![DevSecOps Flow](images/devsecops-secret-flow.png)](images/devsecops-secret-flow.png)
-[![DevSecOps Flow](images/descrit.png)](images/descrit.png)
 
 This diagram illustrates a defense-in-depth approach.
 
